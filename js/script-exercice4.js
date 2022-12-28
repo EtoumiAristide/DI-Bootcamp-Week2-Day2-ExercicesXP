@@ -11,7 +11,7 @@ let nbUserConnected = users.length;
 switch (nbUserConnected) {
     case 0: console.log("no one is online");
         break;
-    case 1: console.log(users[nbUserConnected] + " is online")
+    case 1: console.log(users[0] + " is online")
         break;
     case 2: console.log(users[0] + " and " + users[1] + " are online");
         break;
